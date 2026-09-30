@@ -13,7 +13,7 @@ una API REST utiliza el estilo de arquitectura REST para organizar esa comunicac
 mediante HTTP, trabaja con recursos que represenstan la informacion con la que vamos a interactuar,
 como seria usuarios, publicaciones o productos. 
 
-**Fuente consultada:https://aws.amazon.com/what-is/restful-api/
+**Fuente consultada:**https://aws.amazon.com/what-is/restful-api/
 
 ## Métodos HTTP
 
@@ -55,3 +55,21 @@ Si se solicita intencionalmente un recurso inexistente y se espera un 404, recib
 comportamiento correcto de la API.
 
 **Fuente consultada:** https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+## Cómo reproducir este taller
+
+1. Instalar Postman.
+2. Descargar o clonar este repositorio.
+3. Abrir Postman.
+4. Importar el archivo `coleccion.json`.
+5. Abrir la colección `Taller-API`.
+6. Ejecutar las peticiones incluidas en la colección.
+7. Revisar los códigos de estado, cuerpos de respuesta y resultados de las pruebas automáticas.
+
+## Archivos de este repositorio
+
+- `README.md`: contiene el marco conceptual, métodos HTTP y códigos de estado.
+- `hallazgos.md`: contiene los resultados obtenidos durante las pruebas realizadas en Postman.
+- `conclusiones.md`: contiene las conclusiones de las tareas de investigación y experimentación.
+- `coleccion.json`: colección de Postman exportada en formato Collection v2.1.
+- `evidencias/`: contiene las capturas de pantalla solicitadas durante el taller.
